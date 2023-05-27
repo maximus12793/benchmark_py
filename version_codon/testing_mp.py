@@ -1,3 +1,7 @@
-import openmp as omp
-print(omp.get_num_threads())
-omp.set_num_threads(32)
+from threading import Lock
+lock = Lock()  # or RLock for reentrant lock
+
+@par
+for i in range(100):
+    with lock:
+        print('only one thread at a time allowed here')
