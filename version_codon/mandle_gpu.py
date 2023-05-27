@@ -1,5 +1,7 @@
 import gpu
 
+#TODO: try @par(gpu=True)
+
 MAX    = 1000  # maximum Mandelbrot iterations
 N      = 4096  # width and height of image
 pixels = [0 for _ in range(N * N)]
