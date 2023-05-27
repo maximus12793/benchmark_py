@@ -29,3 +29,4 @@ Memory: 17491MiB / 32768MiB
 
 * 🐍 Python `version 3.11.3`
 * 🍎 Clang `version 14.0.3 (clang-1403.0.22.14.1)`
+* Execution command: `hyperfine 'python -OO file.py 1000`

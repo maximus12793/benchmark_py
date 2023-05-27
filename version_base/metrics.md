@@ -1,0 +1,1 @@
+` hyperfine 'python -OO baseline.py 1000`
